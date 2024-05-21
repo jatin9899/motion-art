@@ -1,0 +1,52 @@
+/* write your css here */
+html, body {
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    font-family: 'MyFont', sans-serif;
+}
+*{
+  overflow-x: hidden;
+}
+/* *{
+  margin:0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+}*/
+/* #canvas{
+  width: 100%;
+  height: 100%;
+  position: relative;
+} 
+.container{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+ 
+
+} */
+.sora {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  /* App.css */
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, transparent 10%, rgba(255, 255, 255, 0.5) 20%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+  }
+  
+  .card:hover .card-overlay {
+    opacity: 1;
+  }
+  

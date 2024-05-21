@@ -1,0 +1,29 @@
+/* .bg-color {
+    background-color: #262626;
+  } */
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .logo p {
+    font-size: 1.2rem;
+  }
+  
+  .buy-button {
+    padding: 10px 20px;
+  }
+  
